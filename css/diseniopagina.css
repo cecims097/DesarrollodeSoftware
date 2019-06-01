@@ -1,0 +1,387 @@
+
+*{
+	margin:auto;
+}
+
+h1{
+  color:white;
+  font-size:25px;
+  padding: 20px;
+  padding-right: 140px;
+  font-family: arial;
+
+
+}
+
+header{
+	background:#00ab84;
+	height:140px;
+	width:auto;
+	border: solid black;
+}
+
+.fondo{
+	float:left;
+	width: 500;
+	height: 140px;
+	background: white;
+
+}
+
+.logo2{
+	float: left;
+    width: 250px;
+    margin-left: 90px;
+    margin-top: 7%;
+    padding: 0px;
+}
+
+.titulo{
+	float: left;
+	margin-right: 270px;
+	line-height: 100px;
+}
+
+.contact{
+	float: right;
+	width: 25px;
+    margin-right: 15px;
+    margin-top: 10px;
+
+
+}
+
+.lim{
+	clear: both;
+}
+
+nav{
+	float: left;
+	background: black;
+	width: 100%;
+	height: auto;
+	opacity: 0.5;
+	text-align:center;
+	padding: 10px 0;
+
+}
+
+nav a{
+	margin-top: 20px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 100px;
+}
+
+nav a:hover{
+	color: white;
+	background: gray;
+	}
+
+
+.imageninfo{
+	height: 300px;
+	width: 380px;
+	margin-left: 280px;
+
+}
+
+
+section{
+	float: left;
+	padding: 20px;
+	width: auto;
+	border: solid 2px black;     /*tipo tamano color*/
+}
+
+.uno{
+	
+	float: left;
+	clear: both;
+	font-size-adjust: 10px;
+	text-align: 200px;
+	margin-left: 240px;
+}
+
+aside{
+	background: transparent;
+	border: solid 2px black;
+	border-radius: 5px;
+	width: 20%;
+	height: 40%;
+	float:right;
+	margin-top: 60px;
+	font-family: arial;
+
+}
+
+.location{
+	font: black;
+	border: solid 2px black;
+	width: 20.5%;
+	height: 40%;
+	float:right;
+	margin-top: 80px;
+	border-radius: 5px;
+	background: transparent;
+
+}
+
+
+label{
+	clear: both;
+	float: left;
+	margin: 10px 0 10px;
+
+}
+
+input,textarea{
+	clear: both;
+	float: left;
+	width: 200px;
+	padding: 5px;
+	border: solid 1px #999999;
+	height: 30px;
+
+}
+
+button{
+	clear: both;
+	float: right;
+	padding: 10px;
+	border: solid 1px #999999;
+	background: white;
+	margin-right: 2px;
+	margin-top: 20px;
+	width: 100px;
+	border-radius: 5px;
+}
+
+.dos{
+	clear: both;
+	float: left;
+	margin-left: 450px;
+}
+
+.dosmedio
+{
+	background: white;
+	color:black;
+	float: left;
+	margin-top: 20px;
+	margin-left: 450px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: arial;
+	width: 500px;
+	border: solid 2px green;
+}
+
+
+.plan{
+	color: black;
+}
+
+
+
+
+
+
+.folleto{
+	border:solid 1px black;
+	float: left;
+	width: 100%;
+	height: auto;
+	background: #b1d1cc;
+	clear: both;
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.tecnico{
+	float: left;
+	width: 30%;
+	height: auto;
+	font-size: 15px;
+	margin-left: 40px;
+	text-align: left;
+	font-family: arial;
+	
+}
+
+.plandos{
+	float: left;
+	width: auto;
+	height: auto;
+	font-size: 15px;
+	margin-left: 40px;
+	text-align: left;
+	font-family: arial;
+
+}
+
+.plantres{
+	float: left;
+	width: auto;
+	height: auto;
+	font-size: 15px;
+	margin-right:40px;
+	text-align: left;
+	margin-bottom: 20px;
+	margin-left:  80px;
+	font-family: arial;
+	
+
+}
+
+.cuatro{
+	color:black;
+	float: left;
+	margin-top: 20px;
+	margin-left: 500px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 500px;
+}
+
+.gallery{
+	color: black;
+	text-align: center;
+	font-family: arial;
+	margin: 50px;
+	clear: both;
+
+
+
+
+}
+
+.galeria{
+	width: 90%;
+	margin: auto;
+	list-style: none;
+	padding: 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 80px;
+	border: solid 2px black;
+
+}
+
+
+.galeria li{
+	margin: 5px;
+}
+
+.galeria img{
+	width: 150px;
+	height: 100px;
+
+}
+
+.estilom {
+	display: none;
+
+
+}
+
+.estilom:target {
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100%;
+
+
+}
+
+
+.estilom h3{
+	color: white;
+	font-family: arial;
+	text-align: center;
+	margin: 15px 0;
+
+}
+
+
+
+.imagen1 {
+	width: 100%;
+	height:50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagen1 a {
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+
+} 
+
+.imagen a:nth-child(2) {
+	margin: 0;
+	height: 100%;
+	flex-shrink: 2;
+
+
+}
+
+.imagen1 img{
+	width: 500px;
+	height: 100%;
+	max-width: 100%
+	border: 7px solid black;
+	box-sizing: border-box;
+
+}
+
+.close{
+	display: block;
+	background-color: white;
+	width: 25px;
+	height: 25px;
+	margin: 15px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	padding: 5px;
+	border-radius: 50%;
+	line-height: 25px;
+}
+
+footer{
+	float: left;
+	clear: both;
+	width: auto;
+	background: black;
+	color:gray;
+	height: auto;
+	width: 100%;
+}
+
+.ietext{
+	color:gray;
+	float: left;
+	margin-top: 20px;
+	margin-left: 500px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 500px;
+}
+
+.plantecnico{
+	font-size: 30px;
+
+}
